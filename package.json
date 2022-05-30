@@ -1,0 +1,39 @@
+{
+  "name": "ruivalim.com.br-infra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rui Valim",
+  "license": "ISC",
+  "devDependencies": {
+    "@aws-cdk/assert": "^2.25.0",
+    "@types/node": "^17.0.36",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.8.0",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.0.0",
+    "tscpaths": "^0.0.9",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.25.0",
+    "aws-sdk": "^2.1145.0",
+    "base-64": "^1.0.0",
+    "constructs": "^10.1.22",
+    "esbuild": "^0.14.42",
+    "esbuild-runner": "^2.2.1",
+    "source-map-support": "^0.5.21"
+  }
+}
