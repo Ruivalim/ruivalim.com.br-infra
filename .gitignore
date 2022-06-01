@@ -1,5 +1,7 @@
 node_modules
 dist
 .DS_Store
-.cdk.staging
-cdk.out
+cdk.context.json
+.cdk.staging/
+cdk.out/
+*.tabl.json
